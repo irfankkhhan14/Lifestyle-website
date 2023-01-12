@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 24px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+button.btn a {
+    color: #005FAC;
+    text-decoration: none;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* Header */
+header {
+    background-image: url(images/banner/banner3.png);
+    text-align: right;
+    padding: 12% 12% 12% 54%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+/* Main body */
+main {
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+section.about {
+    display: flex;
+    margin-top: 100px;
+}
+
+.img-text p {
+    color: black;
+    margin: 20px 0;
+}
+
+.img-text {
+    padding: 18% 8%;
+}
+
+ul.list li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul.list li i {
+    color: #16D887;
+    margin-right: 8px;
+}
+
+/* My Plans Section */
+
+section.my-plans {
+    margin: 60px 0;
+}
+
+.my-plans-item {
+    display: flex;
+    text-align: center;
+    gap: 12.4%;
+    margin-top: 60px;
+}
+
+.my-plans h2 {
+    text-align: center;
+}
+
+.item h3 {
+    font-size: 26px;
+    margin-top: 14px;
+}
+
+.item h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 8px;
+}
+
+/* CTA Section */
+
+.cta {
+    background-image: linear-gradient(to left, rgb(245 246 252 / 0%), #005facfa), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    border-radius: 8px;
+    margin: 100px 0;
+}
+
+section.cta h2 {
+    color: #ffffff;
+    margin-bottom: -10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #151414;
+    padding: 8% 12%;
+    display: flex;
+}
+
+.footer-left h2 {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.footer-left p {
+    width: 62%;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.social img {
+    width: 36px;
+    margin-right: 8px;
+}
+
+.newslatter h3 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="email"] {
+    background: transparent;
+    padding: 18px 100px 18px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+
+input.cta-btn {
+    background: #005FAC;
+    color: #ffffff;
+    margin-top: 15px;
+}
