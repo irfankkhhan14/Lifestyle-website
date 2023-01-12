@@ -162,9 +162,14 @@ input{
     border: 1px solid #ffffff;
     border-radius: 6px;
 }
+.email{
+    color: #ffffff;
+}
 
-.subs-btn {
+.subs-btn{
     background: #005FAC;
+    padding: 16px 30px 16px 30px;
     color: #ffffff;
     margin-top: 15px;
+    border: none;
 }
